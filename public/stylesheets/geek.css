@@ -1,0 +1,40 @@
+.linear_gradient { background-color: #191919; }
+body {
+  background-color: #191919;
+  font-family: Helvetica;
+  font-size: 0.8em;
+  padding: 0px;
+  margin: 0 0 0 10px;
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: none;
+}
+#geekweek {
+  margin: auto;
+  min-width: 968px;
+  width: 80%;
+}
+#geekweek .header .logo {
+  height: 30px;
+  margin-top: 10px;
+}
+#geekweek .header .geek_logo {
+  background: url(/images/geek_logo.png) no-repeat center left;
+  height: 30px;
+  margin-top: 10px;
+}
+#geekweek .body {
+  background: url(/images/iphone.png) no-repeat;
+  height: 530px;
+  padding: 120px 0px 0px 20px;
+  margin: auto;
+  width: 320px;
+}
+#geekweek .body .content {
+  background: url("/images/iphone/stripes.png") repeat scroll 0 0 #c5ccd3;
+  height: 430px;
+  width: 302px;
+}
+#geekweek .footer {
+  background: url(/images/current_theme.png) center right no-repeat;
+  height: 30px;
+}
