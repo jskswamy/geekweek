@@ -57,7 +57,6 @@ div#header h1 {
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
   width: 49%;
   padding: 5px 0;
   margin: 2px 0 0 -24%;
@@ -522,6 +521,7 @@ div#optionpanel h2 {
   color: #000;
   text-shadow: #fff 0px 1px 0;
   -webkit-border-image: url(/images/iphone/whiteButton.png) 0 14 0 14;
+   -moz-border-image: url(/images/iphone/whiteButton.png) 0 14 0 14;
 }
 
 .black { -webkit-border-image: url(/images/iphone/grayButton.png) 0 14 0 14; }

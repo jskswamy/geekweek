@@ -1,5 +1,11 @@
 Geekweek::Application.routes.draw do
   root :to => "home#index"
+
+  match "/welcome" => "home#welcome"
+  match "/about" => "home#about"
+
+  resources :participants
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

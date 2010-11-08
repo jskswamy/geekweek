@@ -17,7 +17,7 @@
     </div>
 
     <div class="body">
-      <div class="content">
+      <div id="iphone_body" class="content">
         <%= yield %>
       </div>
     </div>
@@ -28,5 +28,12 @@
   </div>
 
 </body>
+
+<script type="text/javascript" language="javascript">
+  document.observe("dom:loaded", function() {
+    var geek = new GeekWeek();
+  });
+
+</script>
 
 </html>

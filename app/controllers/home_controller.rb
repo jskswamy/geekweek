@@ -1,6 +1,11 @@
 class HomeController < ApplicationController
 
-  def index
+  def welcome
+    render :partial => "welcome"
+  end
+
+  def about
+    render :partial => "about"
   end
 
 end

@@ -34,6 +34,39 @@ body {
   height: 430px;
   width: 302px;
 }
+#geekweek .body input.capitalize { text-transform: capitalize; }
+#geekweek .body #header {
+  margin: 0px;
+  padding: 0px;
+}
+#geekweek .body #header h1 {
+  left: auto;
+  margin: 0px;
+  padding: 5px 0px;
+  position: relative;
+  width: auto;
+}
+#geekweek .body #header h1.with_back {
+  margin-left: 55px;
+  padding-right: 55px;
+}
+#geekweek ul { margin: 0px; }
+#geekweek div#header a {
+  position: relative;
+  right: auto;
+}
+#geekweek div#header a#backButton {
+  background: url(/images/iphone/backButton.png) no-repeat;
+  float: left;
+  left: auto;
+  padding-left: 10px;
+  width: 45px;
+}
+#geekweek div#header p {
+  left: auto;
+  position: relative;
+  right: auto;
+}
 #geekweek .footer {
   background: url(/images/current_theme.png) center right no-repeat;
   height: 30px;

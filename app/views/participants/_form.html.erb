@@ -1,0 +1,27 @@
+<div id="header">
+  <a class="navigation" href="javascript:void(0)" data-url="<%= welcome_path %>" id="backButton">Back</a>
+  <h1 class="with_back">Register</h1>
+</div>
+
+<%= form_for @participant do |f| %>
+  <ul class="form">
+    <li class=<%= (@participant.errors[:name].empty? ? "valid" : "error") %>>
+      <%= f.text_field :name, :class => "capitalize", :title => "Your Name" %>
+    </li>
+    <li class=<%= (@participant.errors[:email].empty? ? "valid" : "error") %>>
+      <%= f.text_field :email, :title => "Email" %>
+    </li>
+    <li class=<%= (@participant.errors[:phone].empty? ? "valid" : "error") %>>
+      <%= f.text_field :phone, :title => "Phone" %>
+    </li>
+    <li class=<%= (@participant.errors[:organization].empty? ? "valid" : "error") %>>
+      <%= f.text_field :organization, :class => "capitalize", :title => "Organization" %>
+    </li>
+    <li class=<%= (@participant.errors[:designation].empty? ? "valid" : "error") %>>
+      <%= f.text_field :designation, :class => "capitalize", :title => "Your Role" %>
+    </li>
+  </ul>
+  <div>
+    <a class="button white submit" href="javascript:void(0)"">Register</a>
+  </div>
+<% end %>
