@@ -3,9 +3,9 @@
     <h1>Participants</h1>
   </div>
   <ul class="data">
-    <% @participants.each do |participant| %>
+    <% @participants.each_with_index do |participant, index| %>
       <li>
-        <span class="name"><%= participant.name %></span>
+        <span class="name"><%= participant.id %>) <%= participant.name %></span>
         <span class="phone"><%= participant.phone %></span>
         <span class="email"><%= participant.email %></span>
         <span class="role"><%= participant.designation %></span>
