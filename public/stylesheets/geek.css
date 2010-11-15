@@ -11,7 +11,11 @@ body {
 #geekweek {
   margin: auto;
   min-width: 968px;
-  width: 80%;
+  width: 800px;
+}
+#geekweek .header {
+  height: 119px;
+  width: 270px;
 }
 #geekweek .header .logo {
   height: 30px;
@@ -25,8 +29,8 @@ body {
 #geekweek .body {
   background: url(/images/iphone.png) no-repeat;
   height: 530px;
-  padding: 120px 0px 0px 20px;
   margin: auto;
+  padding: 119px 0 0 20px;
   width: 320px;
 }
 #geekweek .body .content {
@@ -67,7 +71,17 @@ body {
   position: relative;
   right: auto;
 }
+#geekweek ul.data li p + p { margin-top: 5px; }
+#geekweek li.adr p { font-size: 12px; }
+#geekweek li.adr p.street-address { font-size: 14px; }
+#geekweek li.adr p.extended-address { font-size: 14px; }
+#geekweek ul.phone-number strong {
+  display: inline-block;
+  width: 125px;
+}
 #geekweek .footer {
+  float: right;
+  height: 50px;
+  width: 270px;
   background: url(/images/current_theme.png) center right no-repeat;
-  height: 30px;
 }

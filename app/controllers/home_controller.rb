@@ -8,4 +8,12 @@ class HomeController < ApplicationController
     render :partial => "about"
   end
 
+  def venue
+    render :partial => "venue"
+  end
+
+  def contact
+    render :partial => "contact"
+  end
+
 end

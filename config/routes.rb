@@ -3,6 +3,8 @@ Geekweek::Application.routes.draw do
 
   match "/welcome" => "home#welcome"
   match "/about" => "home#about"
+  match "/venue" => "home#venue"
+  match "/contact" => "home#contact"
 
   resources :participants
 
