@@ -1,0 +1,16 @@
+<div class="participant">
+  <div id="header">
+    <h1>Participants</h1>
+  </div>
+  <ul class="data">
+    <% @participants.each do |participant| %>
+      <li>
+        <span class="name"><%= participant.name %></span>
+        <span class="phone"><%= participant.phone %></span>
+        <span class="email"><%= participant.email %></span>
+        <span class="role"><%= participant.designation %></span>
+        <span class="company"><%= participant.organization %></span>
+      </li>
+    <% end %>
+  </ul>
+</div>

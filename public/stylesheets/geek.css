@@ -14,7 +14,7 @@ body {
   width: 800px;
 }
 #geekweek .header {
-  height: 119px;
+  height: 70px;
   width: 270px;
 }
 #geekweek .header .logo {
@@ -39,6 +39,20 @@ body {
   width: 302px;
 }
 #geekweek .body input.capitalize { text-transform: capitalize; }
+#geekweek .participant .data {
+  overflow-y: scroll;
+  height: 382px;
+}
+#geekweek .participant .data li span {
+  display: block;
+  font-size: 0.7em;
+}
+#geekweek .participant .data li span.name {
+  text-transform: capitalize;
+  font-size: 1em;
+}
+#geekweek .participant .data li span.company { text-transform: capitalize; }
+#geekweek .participant .data li span.role { text-transform: capitalize; }
 #geekweek .body #header {
   margin: 0px;
   padding: 0px;

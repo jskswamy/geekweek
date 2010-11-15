@@ -14,4 +14,8 @@ class ParticipantsController < ApplicationController
     end
   end
 
+  def index
+    @participants = Participant.all(:order => "created_at DESC")
+  end
+
 end

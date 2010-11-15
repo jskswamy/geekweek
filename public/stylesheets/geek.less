@@ -20,8 +20,8 @@ body {
 
 #geekweek .header
 {
-	height:119px;
-	width:270px;
+	height: 70px;
+	width: 270px;
 }
 
 #geekweek .header .logo {
@@ -52,6 +52,25 @@ body {
 #geekweek .body input.capitalize {
   text-transform: capitalize;
 }
+
+#geekweek .participant .data {
+  overflow-y: scroll;
+  height: 382px;
+  li {
+    span {
+      display: block;
+      font-size: .7em;
+    }
+    span.name {
+      text-transform: capitalize;
+      font-size: 1em;
+    }
+    span.company, span.role {
+      text-transform: capitalize;
+    }
+  }
+}
+
 
 /*iPhone overridern styles*/
 
