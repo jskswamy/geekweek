@@ -45,7 +45,7 @@ describe Participant do
   end
 
   it "should not create participant if the phone is 'Phone'" do
-    participant = Factory.build(:participant, :phone => "Phone")
+    participant = Factory.build(:participant, :phone => "Contact Number")
     participant.valid?.should == false
     participant.errors.full_messages.to_sentence.should == "Phone can't be blank"
   end

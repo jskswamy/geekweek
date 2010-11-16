@@ -10,7 +10,7 @@ class Participant < ActiveRecord::Base
     elsif !email.nil?
       validates_format_of :email, :with => /^([^\s]+)((?:[-a-z0-9]\.)[a-z]{2,})$/i
     end
-    errors.add(:phone, "can't be blank") if phone == "Phone"
+    errors.add(:phone, "can't be blank") if phone == "Contact Number"
     errors.add(:organization, "can't be blank") if organization == "Organization"
     errors.add(:designation, "can't be blank") if designation == "Your Role"
   end

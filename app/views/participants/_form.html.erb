@@ -12,7 +12,7 @@
       <%= f.text_field :email, :title => "Email" %>
     </li>
     <li class=<%= (@participant.errors[:phone].empty? ? "valid" : "error") %>>
-      <%= f.text_field :phone, :title => "Phone" %>
+      <%= f.text_field :phone, :title => "Contact Number" %>
     </li>
     <li class=<%= (@participant.errors[:organization].empty? ? "valid" : "error") %>>
       <%= f.text_field :organization, :class => "capitalize", :title => "Organization" %>

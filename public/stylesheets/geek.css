@@ -48,8 +48,8 @@ body {
   font-size: 0.7em;
 }
 #geekweek .participant .data li span.name {
-  text-transform: capitalize;
   font-size: 1em;
+  text-transform: capitalize;
 }
 #geekweek .participant .data li span.company { text-transform: capitalize; }
 #geekweek .participant .data li span.role { text-transform: capitalize; }
