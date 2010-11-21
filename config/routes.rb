@@ -5,6 +5,7 @@ Geekweek::Application.routes.draw do
   match "/about" => "home#about"
   match "/venue" => "home#venue"
   match "/contact" => "home#contact"
+  match "/participants/export" => "participants#export"
 
   resources :participants
 
