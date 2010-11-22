@@ -16,4 +16,8 @@ class HomeController < ApplicationController
     render :partial => "contact"
   end
 
+  def closed
+    render :partial => "closed"
+  end
+
 end
